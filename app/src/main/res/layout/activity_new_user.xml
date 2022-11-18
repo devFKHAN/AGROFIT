@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_back"
+    tools:context=".newUser">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="230dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:text="Enter New Password"
+            android:layout_weight=".4"
+            android:textColor="@color/black"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            />
+        <EditText
+            android:layout_weight=".6"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:inputType="textPassword"
+            android:id="@+id/new_password"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:text="Confirm Password"
+            android:layout_weight=".4"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            />
+        <EditText
+            android:layout_weight=".6"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:id="@+id/confirm_password"
+            />
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#479FC6"
+        app:cardCornerRadius="16dp"
+
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Done"
+            android:textStyle="bold"
+            android:id="@+id/done"
+            android:textColor="@color/black"
+            android:background="?selectableItemBackground"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "511253226651",
+    "firebase_url": "https://fir-b27ef-default-rtdb.firebaseio.com",
+    "project_id": "fir-b27ef",
+    "storage_bucket": "fir-b27ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511253226651:android:009ac7764666bd3e07523e",
+        "android_client_info": {
+          "package_name": "com.example.agrofit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "511253226651-tssetj00535cvdqeg99cakt8fb90la51.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.agrofit",
+            "certificate_hash": "3323d660fe426c94e6055d8e39f3d5fd6f18b5ed"
+          }
+        },
+        {
+          "client_id": "511253226651-np7evaar10onpfeskvakncbgkp4n6kbu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBorX6Jg8QBmLwZ_59VY_HMlEgv1FeWXq0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "511253226651-np7evaar10onpfeskvakncbgkp4n6kbu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
